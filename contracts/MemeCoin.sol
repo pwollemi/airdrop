@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 import "./ERC20.sol";
 
-contract taxableERC20V2 is ERC20, Ownable {
+contract MemeCoin is ERC20, Ownable {
 
     address taxWallet;
     address charityWallet;
@@ -89,4 +89,4 @@ contract taxableERC20V2 is ERC20, Ownable {
 
         _afterTokenTransfer(sender, recipient, amount);
     }
-} 
+}
